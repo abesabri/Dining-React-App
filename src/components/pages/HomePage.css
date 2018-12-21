@@ -1,0 +1,31 @@
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bannerimg {
+    display: none;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .bannerimg {
+    display: none;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .bannerimg {
+    display: none;
+  }
+}
+
+.jumbotron {
+  background-image: url(/assets/headerbanner.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+h1.foodbanner {
+  font-family: cursive;
+  color: white;
+}

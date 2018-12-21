@@ -1,0 +1,66 @@
+.mycontent-left {
+  border-right: 1px solid #333;
+}
+
+.menucontent {
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 50px;
+}
+
+p {
+  color: #191970;
+  font-weight: bold;
+  margin-left: -30px;
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+h4 {
+  font-weight: bold;
+  color: black;
+  margin-left: -30px;
+}
+
+h5 {
+  color: #5f9ea0;
+  font-weight: bold;
+  margin-left: -30px;
+}
+
+h3 {
+  margin-bottom: 0%;
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+  .bannerimg {
+    display: none;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+  .bannerimg {
+    display: none;
+  }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .bannerimg {
+    display: none;
+  }
+}
+
+.jumbotron {
+  background-image: url(/assets/headerbanner.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+h1.foodbanner {
+  font-family: cursive;
+  color: white;
+}
